@@ -5,11 +5,11 @@ Using the PowerShell profile, you can make simple functions quickly and easily. 
 
 ### Set up profile
 1. Test if you have a profile (type into PowerShell):
-    Test-path $profile
+    **Test-path $profile**
 2. If it says **false**, type (else skip to #3):
-    New-item –type file –force $profile
+    **New-item –type file –force $profile**
 3. Then edit your profile (can be any text editor, notepad is easy though):
-    Notepad $profile
+    **Notepad $profile**
 4. In your profile doc, type your desired "mini-script" in the form of:
 
 ```
@@ -24,7 +24,7 @@ function yourFunction {
 
 ### Execute Command
 1. By default, PowerShell will NOT run scripts (that aren't built in unless it is administratively instructed to do so. To override this, start PS as admin and be like:
-    Set-ExecutionPolicy RemoteSigned
+    **Set-ExecutionPolicy RemoteSigned**
 2. Say yes when it prompts you and reload PS when it's done.
 3. Type your function name in as though it were a built in command and watch!
 ---
