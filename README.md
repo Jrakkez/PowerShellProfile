@@ -9,7 +9,7 @@ Using the PowerShell profile, you can make simple functions quickly and easily. 
 ```
 Test-path $profile
 ```
-2. If it says **false**, type (else skip to #3):
+2. If it says **false**, type this (else skip to #3):
 
 ```
 New-item –type file –force $profile
