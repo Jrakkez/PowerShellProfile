@@ -23,7 +23,7 @@ function yourFunction {
 ```
 
 ### Execute Command
-1. By default, PowerShell will NOT run scripts (that aren't built in unless it is administratively instructed to do so. To override this, start PS as admin and be like:
+1. By default, PowerShell will NOT run scripts (that aren't built in) unless it is administratively instructed to do so. To override this, start PS as admin and be like:
     **Set-ExecutionPolicy RemoteSigned**
 2. Say yes when it prompts you and reload PS when it's done.
 3. Type your function name in as though it were a built in command and watch!
