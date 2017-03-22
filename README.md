@@ -40,4 +40,4 @@ Set-ExecutionPolicy RemoteSigned
 2. Say yes when it prompts you and reload PS when it's done.
 3. Type your function name in as though it were a built in command and watch!
 ---
-Check my attached profile if you'd like an example. PS, the last instruction in that profile checks if PowerShell is in admin mode and turns the text red if it is. There are lots of little mini-script things online that you can copy paste.
+Check my attached [profile](Microsoft.PowerShell_profile.ps1) if you'd like an example. PS, the last instruction in that profile checks if PowerShell is in admin mode and turns the text red if it is. There are lots of little mini-script things online that you can copy paste.
