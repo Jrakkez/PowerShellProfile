@@ -7,7 +7,7 @@ Using the PowerShell profile, you can make simple functions quickly and easily. 
 1. Test if you have a profile (type into PowerShell):
 ```Test-path $profile```
 2. If it says **false**, type (else skip to #3):
-```New-item –type file –force $profile```
+```New-item â€“type file â€“force $profile```
 3. Then edit your profile (can be any text editor, notepad is easy though):
 ```Notepad $profile```
 4. In your profile doc, type your desired "mini-script" in the form of:
